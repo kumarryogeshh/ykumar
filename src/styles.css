@@ -1,0 +1,83 @@
+/* Typography */
+
+html {
+  font-family: "Special Elite", cursive;
+}
+
+@media (min-width: 576px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+.icons-social i {
+  font-size: 3em;
+}
+
+/* Custom Styles */
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  padding: 0 30px;
+  text-align: center;
+}
+
+main > .intro {
+  font-family: "Special Elite", cursive;
+  font-size: 2.3em;
+  font-weight: 400;
+}
+
+main > .tagline {
+  font-family: source-code-pro, "Courier New", monospace;
+  font-size: 1.2rem;
+  margin: 1.3rem 0;
+  font-weight: 200;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.about {
+  font-family: source-code-pro, "Courier New", monospace;
+  font-size: 1rem;
+  margin: 1rem 0;
+  font-weight: 200;
+  align-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.icons-social i {
+  padding: 10px;
+}
+
+.devto {
+  margin-bottom: -0.2rem;
+}
+
+.devto svg {
+  margin-bottom: -0.2rem;
+  margin-left: 0.675rem;
+  width: 2.65rem;
+  height: 2.65rem;
+}

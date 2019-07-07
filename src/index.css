@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+main {
+  background: #e8eaf6;
+  color: black;
+}
+
+.icons-social a {
+  color: black;
+}
+
+.icons-social a svg path {
+  fill: black;
+}
