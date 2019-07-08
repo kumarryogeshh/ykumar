@@ -63,8 +63,8 @@ main > .tagline {
   margin: 1rem 0;
   font-weight: 200;
   align-content: center;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .icons-social i {
