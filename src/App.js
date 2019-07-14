@@ -1,8 +1,15 @@
 import React from "react";
 
+import profile from "./yogesh.jpeg";
+
 const App = () => {
   return (
     <main>
+      <div className="img-container">
+        <div className="img-box">
+          <img src={profile} alt="yogesh kumar, ykumar, boskysoft" />
+        </div>
+      </div>
       <div className="intro">Hello, I'm Yogesh Kumar.</div>
       <div className="tagline">
         Solution Architect | Full Stack Dev | Serverless Enthusiast | Cloud
@@ -10,9 +17,9 @@ const App = () => {
       </div>
       <div className="about">
         I have a Masters Degree in Computer Applications and React Nanodegree
-        from Udacity. I am passionate about building high performance, scalable
-        and resilient software systems using opensource technologies and have
-        good experience at making production ready applications. I{" "}
+        from Udacity. I am passionate about building high performance, scalable,
+        resilient software systems using opensource technologies and have good
+        experience at making production ready applications. I{" "}
         <a
           target="_blank"
           rel="noopener noreferrer"
